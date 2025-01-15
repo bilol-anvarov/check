@@ -16,7 +16,7 @@ export default function Cart() {
             {cart.map((item, index) => (
               <li key={index} className="flex justify-between items-center p-2 border-b">
                 {/* Отображение фото */}
-                <img src={item.img} alt={item.name} className="w-16 h-16 object-cover mr-4" />
+                <img src={item.image} alt={item.name} className="w-16 h-16 object-cover mr-4" />
                 {/* Название товара */}
                 <span className="flex-1">{item.name}</span>
                 {/* Цена */}
